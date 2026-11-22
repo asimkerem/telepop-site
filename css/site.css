@@ -207,7 +207,7 @@ html[data-dil="en"] [lang="tr"]:not(html) { display: none !important; }
 	border-radius: 26px; padding: 7px; background: #05061a;
 	box-shadow: 0 14px 34px rgba(0, 0, 0, 0.45), inset 0 0 0 1px rgba(255, 255, 255, 0.09), 0 0 0 1px rgba(60, 242, 255, 0.12);
 }
-.telefon img { border-radius: 20px; aspect-ratio: 396 / 786; width: 100%; height: auto; object-fit: cover; background: var(--kart); }
+.telefon img { border-radius: 20px; aspect-ratio: 480 / 953; width: 100%; height: auto; object-fit: contain; background: var(--kart); }
 .galeri figcaption { margin-top: 10px; text-align: center; color: var(--soluk); font-size: 14px; }
 
 /* Nasıl oynanır: üç adım. */
