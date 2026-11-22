@@ -130,7 +130,7 @@ html[data-dil="en"] [lang="tr"]:not(html) { display: none !important; }
 
 .slogan {
 	margin: 26px 0 0; font-family: "Audiowide", sans-serif; font-size: clamp(18px, 3.6vw, 26px);
-	color: var(--altin); letter-spacing: 1px;
+	color: var(--altin); letter-spacing: 1px; word-spacing: 0.45em;
 }
 .giris {
 	max-width: 640px; margin: 18px auto 0; color: var(--soluk); font-size: clamp(16px, 2.2vw, 19px);
@@ -294,7 +294,7 @@ pre {
 	.ic { padding: 0 16px; }
 	.ust .ic { height: 58px; gap: 10px; }
 	.marka span { display: none; }
-	.baglantilar .ev { display: none; }
+	.baglantilar { margin-left: 0; margin-right: auto; }
 	.baglantilar a { padding: 8px 7px; font-size: 12px; }
 	.karsilama { padding-top: 40px; }
 	.uygulama-simgesi { width: 92px; height: 92px; border-radius: 22px; }
@@ -308,8 +308,9 @@ pre {
 	.alt-bilgi .ic { flex-direction: column; }
 }
 
-@media (max-width: 380px) {
-	.baglantilar a { padding: 8px 5px; font-size: 11px; }
+@media (max-width: 400px) {
+	.marka { display: none; }
+	.baglantilar a { padding: 8px 6px; font-size: 11.5px; }
 	.dil-secimi button { padding: 6px 9px; }
 }
 
